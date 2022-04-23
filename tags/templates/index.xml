@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>templates on Rachel Soh Zhi Ching</title>
+    <link>https://rs201918703.github.io/Rachel_Portfolio/tags/templates/</link>
+    <description>Recent content in templates on Rachel Soh Zhi Ching</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Thu, 10 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://rs201918703.github.io/Rachel_Portfolio/tags/templates/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nvidia Stock Analysis</title>
+      <link>https://rs201918703.github.io/Rachel_Portfolio/projects/nvidia-stock-analysis/</link>
+      <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://rs201918703.github.io/Rachel_Portfolio/projects/nvidia-stock-analysis/</guid>
+      <description>I&amp;rsquo;ve been interested in investing in the stock market lately. I thought doing this project might help me learn more about valuing companies and deciding what stocks to invest in. This is a short project where I analyse Nvidia stocks using past information. Some key questions that I wanted to answer in this project are:
+ What was the change in price of stock over time? What was the daily, monthly, and yearly return of the stock?</description>
+    </item>
+    
+  </channel>
+</rss>

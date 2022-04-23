@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Development on Rachel Soh</title>
+    <link>https://rs201918703.github.io/Rachel_Portfolio/categories/development/</link>
+    <description>Recent content in Development on Rachel Soh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Thu, 10 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://rs201918703.github.io/Rachel_Portfolio/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Los Angeles Crime Analysis</title>
+      <link>https://rs201918703.github.io/Rachel_Portfolio/projects/los-angeles-crime-analysis/</link>
+      <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://rs201918703.github.io/Rachel_Portfolio/projects/los-angeles-crime-analysis/</guid>
+      <description>Project overview  This is a completed team project Predicted areas that are prone to crime in Los Angeles through data analysis Identified factors which are linked to more severe crimes Demonstrated how crime analysis can be used for predictive policing programs Analysis was carried out using R  Predictive policing is becoming an important part for fair policing today. We wanted to find out if we could predict which areas would have crimes based on factors like victim&amp;rsquo;s age, sex, descent, premise types etc.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="map[name:Michael Henderson]">
+<meta name="description" content="Project overview  This is a completed team project Created a fully functional e-commerce database that can be used by both consumers and producers Used a number of triggers, indexes and views to simulate a real e-commerce database We built the database using Python and SQLite in DB Browser  For this project, we wanted to mimic a database of a huge e-commerce site like Amazon. Then, we identified how a huge database like Amazon&amp;rsquo;s could be broken down into operations and insights." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://rs201918703.github.io/Rachel-s-Portfolio/projects/e-commerce-database/" />
+
+
+    <title>
+        
+            An Insight into an E-Commerce Database :: Rachel Soh 
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://rs201918703.github.io/Rachel-s-Portfolio/main.154a87e0ff720e102948892a8eb80881aa81a4faf37376f3093be219f6296c3d.css">
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://rs201918703.github.io/Rachel-s-Portfolio/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://rs201918703.github.io/Rachel-s-Portfolio/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://rs201918703.github.io/Rachel-s-Portfolio/favicon-16x16.png">
+    <link rel="manifest" href="https://rs201918703.github.io/Rachel-s-Portfolio/site.webmanifest">
+    <link rel="mask-icon" href="https://rs201918703.github.io/Rachel-s-Portfolio/safari-pinned-tab.svg" color="">
+    <link rel="shortcut icon" href="https://rs201918703.github.io/Rachel-s-Portfolio/favicon.ico">
+    <meta name="msapplication-TileColor" content="">
+
+
+<meta itemprop="name" content="An Insight into an E-Commerce Database">
+<meta itemprop="description" content="Project overview  This is a completed team project Created a fully functional e-commerce database that can be used by both consumers and producers Used a number of triggers, indexes and views to simulate a real e-commerce database We built the database using Python and SQLite in DB Browser  For this project, we wanted to mimic a database of a huge e-commerce site like Amazon. Then, we identified how a huge database like Amazon&rsquo;s could be broken down into operations and insights."><meta itemprop="datePublished" content="2022-01-21T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2022-01-21T00:00:00+00:00" />
+<meta itemprop="wordCount" content="130"><meta itemprop="image" content="https://rs201918703.github.io/Rachel-s-Portfolio/"/>
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://rs201918703.github.io/Rachel-s-Portfolio/"/>
+
+<meta name="twitter:title" content="An Insight into an E-Commerce Database"/>
+<meta name="twitter:description" content="Project overview  This is a completed team project Created a fully functional e-commerce database that can be used by both consumers and producers Used a number of triggers, indexes and views to simulate a real e-commerce database We built the database using Python and SQLite in DB Browser  For this project, we wanted to mimic a database of a huge e-commerce site like Amazon. Then, we identified how a huge database like Amazon&rsquo;s could be broken down into operations and insights."/>
+
+
+
+
+    <meta property="og:title" content="An Insight into an E-Commerce Database" />
+<meta property="og:description" content="Project overview  This is a completed team project Created a fully functional e-commerce database that can be used by both consumers and producers Used a number of triggers, indexes and views to simulate a real e-commerce database We built the database using Python and SQLite in DB Browser  For this project, we wanted to mimic a database of a huge e-commerce site like Amazon. Then, we identified how a huge database like Amazon&rsquo;s could be broken down into operations and insights." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://rs201918703.github.io/Rachel-s-Portfolio/projects/e-commerce-database/" /><meta property="og:image" content="https://rs201918703.github.io/Rachel-s-Portfolio/"/><meta property="article:section" content="projects" />
+<meta property="article:published_time" content="2022-01-21T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-01-21T00:00:00+00:00" />
+<meta property="og:see_also" content="https://rs201918703.github.io/Rachel-s-Portfolio/projects/twitter-analytics/" /><meta property="og:see_also" content="https://rs201918703.github.io/Rachel-s-Portfolio/projects/nvidia-stock-analysis/" /><meta property="og:see_also" content="https://rs201918703.github.io/Rachel-s-Portfolio/projects/lstm-and-mlp-stock-price-prediction/" /><meta property="og:see_also" content="https://rs201918703.github.io/Rachel-s-Portfolio/projects/los-angeles-crime-analysis/" />
+
+
+
+
+
+
+
+    <meta property="article:published_time" content="2022-01-21 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://rs201918703.github.io/Rachel-s-Portfolio/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">&gt;</span>
+            <span class="logo__text">Home</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://rs201918703.github.io/Rachel-s-Portfolio/about/">About</a></li><li><a href="https://rs201918703.github.io/Rachel-s-Portfolio/projects/">Projects</a></li>
+        <div class="submenu">
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">en</a>
+                <div class="dropdown-content">
+                    
+                </div>
+            </li>
+        </div>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://rs201918703.github.io/Rachel-s-Portfolio/projects/e-commerce-database/">An Insight into an E-Commerce Database</a></h2>
+
+            
+            
+            
+
+            <div class="post-content">
+                <h4 id="project-overview">Project overview</h4>
+<ul>
+<li>This is a completed team project</li>
+<li>Created a fully functional e-commerce database that can be used by both consumers and producers</li>
+<li>Used a number of triggers, indexes and views to simulate a real e-commerce database</li>
+<li>We built the database using Python and SQLite in DB Browser</li>
+</ul>
+<p>For this project, we wanted to mimic a database of a huge e-commerce site like Amazon. Then, we identified how a huge database like Amazon&rsquo;s could be broken down into operations and insights. And we decided to focus on the insights portion because there is more room to interpret results. So, this database serves both customers and producers with insights into products. Our final product was our query outputs. This is an academic project for ST207.</p>
+<p>View the full Github repository <a href="https://github.com/RS201918703/E-commerce-Database">here</a>.</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+            
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2022</span>
+            <span><a href="https://rs201918703.github.io/Rachel-s-Portfolio/">Rachel Soh</a></span>
+            <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span>
+            <span><a href="https://rs201918703.github.io/Rachel-s-Portfolio/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+            
+        </div>
+    </div>
+    
+    
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span><span>Theme made with &#10084; by <a href="https://github.com/rhazdon">Djordje Atlialp</a></span>
+        </div>
+    </div>
+    
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="https://rs201918703.github.io/Rachel-s-Portfolio/bundle.min.599099f1f14b78b657d524b28e10e0c5098e7cd46e9c7aed73d577068a276c3ff1bb234cbf29cb313333e83cf411727b43157c91ce5b809e2ffc81664614608e.js" integrity="sha512-WZCZ8fFLeLZX1SSyjhDgxQmOfNRunHrtc9V3BoonbD/xuyNMvynLMTMz6Dz0EXJ7QxV8kc5bgJ4v/IFmRhRgjg=="></script>
+
+
+
+    </body>
+</html>

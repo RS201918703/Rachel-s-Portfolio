@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Rachel Soh</title>
+    <link>https://rs201918703.github.io/Rachel-s-Portfolio/projects/</link>
+    <description>Recent content in Projects on Rachel Soh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sat, 23 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://rs201918703.github.io/Rachel-s-Portfolio/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An Insight into an E-Commerce Database</title>
+      <link>https://rs201918703.github.io/Rachel-s-Portfolio/projects/e-commerce-database/</link>
+      <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://rs201918703.github.io/Rachel-s-Portfolio/projects/e-commerce-database/</guid>
+      <description>Project overview  This is a completed team project Created a fully functional e-commerce database that can be used by both consumers and producers Used a number of triggers, indexes and views to simulate a real e-commerce database We built the database using Python and SQLite in DB Browser  For this project, we wanted to mimic a database of a huge e-commerce site like Amazon. Then, we identified how a huge database like Amazon&amp;rsquo;s could be broken down into operations and insights.</description>
+    </item>
+    
+    <item>
+      <title>Investigating digital presence on Twitter</title>
+      <link>https://rs201918703.github.io/Rachel-s-Portfolio/projects/twitter-analytics/</link>
+      <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://rs201918703.github.io/Rachel-s-Portfolio/projects/twitter-analytics/</guid>
+      <description>Project overview  This is a completed project Classifying sentiment of tweets using TextBlob Used Twitter APIs to create a dataset with social media engagement statistics Using data visualisation to find out whether Twitter is a social media platform that LSE Department&amp;rsquo;s should consider using Creating NetworkX graphs to identify active users Analysis carried out using Python (Jupyter Notebook)  View the full Github repository here.</description>
+    </item>
+    
+    <item>
+      <title>Nvidia Stock Analysis</title>
+      <link>https://rs201918703.github.io/Rachel-s-Portfolio/projects/nvidia-stock-analysis/</link>
+      <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://rs201918703.github.io/Rachel-s-Portfolio/projects/nvidia-stock-analysis/</guid>
+      <description>Project overview  This is an ongoing project Forecasting the future of Nvidia stocks Predicting future prices using univariate time series forecasting Showed the stock&amp;rsquo;s price changes, returns, moving average, risk and forecasting its future movements Using ARIMA model for forecasting Analysis carried out using Python (Jupyter Notebook)  I&amp;rsquo;ve been interested in investing in the stock market lately. I thought doing this project might help me learn more about valuing companies and deciding what stocks to invest in.</description>
+    </item>
+    
+    <item>
+      <title>Predicting Meta&#39;s stock prices using LSTM and MLP</title>
+      <link>https://rs201918703.github.io/Rachel-s-Portfolio/projects/lstm-and-mlp-stock-price-prediction/</link>
+      <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://rs201918703.github.io/Rachel-s-Portfolio/projects/lstm-and-mlp-stock-price-prediction/</guid>
+      <description>Project overview  This is an ongoing project Forecasting future prices of Meta&amp;rsquo;s stock using recurrent and deep neural networks (Long short-term memory and multilayer perceptron) Creating an LSTM and MLP model to compare performance Measuring accuracy using confusion matrices and F-scores Comparing deep learning methods and traditional time series models (ARIMA) Analysis will be carried out on Python (Spyder &amp;amp; Jupyter Notebook &amp;amp; Google Colab)  </description>
+    </item>
+    
+    <item>
+      <title>Los Angeles Crime Analysis</title>
+      <link>https://rs201918703.github.io/Rachel-s-Portfolio/projects/los-angeles-crime-analysis/</link>
+      <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://rs201918703.github.io/Rachel-s-Portfolio/projects/los-angeles-crime-analysis/</guid>
+      <description>Project overview  This is a completed team project Predicted areas that are prone to crime in Los Angeles through data analysis Identified factors which are linked to more severe crimes Demonstrated how crime analysis can be used for predictive policing programs Analysis was carried out using R  Predictive policing is becoming an important part for fair policing today. We wanted to find out if we could predict which areas would have crimes based on factors like victim&amp;rsquo;s age, sex, descent, premise types etc.</description>
+    </item>
+    
+  </channel>
+</rss>
