@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="map[name:Hugo Authors]">
-<meta name="description" content="Project overview  This is an ongoing project Forecasted future prices of Meta&amp;rsquo;s stock using recurrent and deep neural networks (Recurrent neural network, long short-term memory and multilayer perceptron) Created a vanilla RNN, LSTM, and MLP model to compare performance Measured accuracy using root mean-squared error Identified the better performing models and provided reasonings Comparing deep learning methods and traditional time series models (ARIMA) Analysis was carried out on Python (Spyder &amp;amp; Jupyter Notebook &amp;amp; Google Colab)  " />
+<meta name="description" content="Project overview  This is a completed project Forecasted future prices of Meta&amp;rsquo;s stock using recurrent and deep neural networks Created RNN, LSTM, and MLP models using PyTorch to compare performance Measured accuracy using root mean-squared error Identified the better performing models and provided reasonings Analysis was carried out on Python (Spyder &amp;amp; Jupyter Notebook &amp;amp; Google Colab)  The task of predicting stock market prices is challenging. Stock prediction is of interest to most investors due to its high volatility." />
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
@@ -14,7 +14,7 @@
 
     <title>
         
-            Predicting Meta&#39;s stock prices using LSTM and MLP :: Rachel Soh 
+            Simple stock prediction using artificial neural networks :: Rachel Soh 
         
     </title>
 
@@ -38,22 +38,22 @@
     <meta name="msapplication-TileColor" content="">
 
 
-<meta itemprop="name" content="Predicting Meta&#39;s stock prices using LSTM and MLP">
-<meta itemprop="description" content="Project overview  This is an ongoing project Forecasted future prices of Meta&rsquo;s stock using recurrent and deep neural networks (Recurrent neural network, long short-term memory and multilayer perceptron) Created a vanilla RNN, LSTM, and MLP model to compare performance Measured accuracy using root mean-squared error Identified the better performing models and provided reasonings Comparing deep learning methods and traditional time series models (ARIMA) Analysis was carried out on Python (Spyder &amp; Jupyter Notebook &amp; Google Colab)  "><meta itemprop="datePublished" content="2022-05-03T00:00:00+00:00" />
+<meta itemprop="name" content="Simple stock prediction using artificial neural networks">
+<meta itemprop="description" content="Project overview  This is a completed project Forecasted future prices of Meta&rsquo;s stock using recurrent and deep neural networks Created RNN, LSTM, and MLP models using PyTorch to compare performance Measured accuracy using root mean-squared error Identified the better performing models and provided reasonings Analysis was carried out on Python (Spyder &amp; Jupyter Notebook &amp; Google Colab)  The task of predicting stock market prices is challenging. Stock prediction is of interest to most investors due to its high volatility."><meta itemprop="datePublished" content="2022-05-03T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2022-05-03T00:00:00+00:00" />
-<meta itemprop="wordCount" content="76"><meta itemprop="image" content="https://rs201918703.github.io/Rachel-s-Portfolio/"/>
+<meta itemprop="wordCount" content="141"><meta itemprop="image" content="https://rs201918703.github.io/Rachel-s-Portfolio/"/>
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://rs201918703.github.io/Rachel-s-Portfolio/"/>
 
-<meta name="twitter:title" content="Predicting Meta&#39;s stock prices using LSTM and MLP"/>
-<meta name="twitter:description" content="Project overview  This is an ongoing project Forecasted future prices of Meta&rsquo;s stock using recurrent and deep neural networks (Recurrent neural network, long short-term memory and multilayer perceptron) Created a vanilla RNN, LSTM, and MLP model to compare performance Measured accuracy using root mean-squared error Identified the better performing models and provided reasonings Comparing deep learning methods and traditional time series models (ARIMA) Analysis was carried out on Python (Spyder &amp; Jupyter Notebook &amp; Google Colab)  "/>
+<meta name="twitter:title" content="Simple stock prediction using artificial neural networks"/>
+<meta name="twitter:description" content="Project overview  This is a completed project Forecasted future prices of Meta&rsquo;s stock using recurrent and deep neural networks Created RNN, LSTM, and MLP models using PyTorch to compare performance Measured accuracy using root mean-squared error Identified the better performing models and provided reasonings Analysis was carried out on Python (Spyder &amp; Jupyter Notebook &amp; Google Colab)  The task of predicting stock market prices is challenging. Stock prediction is of interest to most investors due to its high volatility."/>
 
 
 
 
-    <meta property="og:title" content="Predicting Meta&#39;s stock prices using LSTM and MLP" />
-<meta property="og:description" content="Project overview  This is an ongoing project Forecasted future prices of Meta&rsquo;s stock using recurrent and deep neural networks (Recurrent neural network, long short-term memory and multilayer perceptron) Created a vanilla RNN, LSTM, and MLP model to compare performance Measured accuracy using root mean-squared error Identified the better performing models and provided reasonings Comparing deep learning methods and traditional time series models (ARIMA) Analysis was carried out on Python (Spyder &amp; Jupyter Notebook &amp; Google Colab)  " />
+    <meta property="og:title" content="Simple stock prediction using artificial neural networks" />
+<meta property="og:description" content="Project overview  This is a completed project Forecasted future prices of Meta&rsquo;s stock using recurrent and deep neural networks Created RNN, LSTM, and MLP models using PyTorch to compare performance Measured accuracy using root mean-squared error Identified the better performing models and provided reasonings Analysis was carried out on Python (Spyder &amp; Jupyter Notebook &amp; Google Colab)  The task of predicting stock market prices is challenging. Stock prediction is of interest to most investors due to its high volatility." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://rs201918703.github.io/Rachel-s-Portfolio/projects/lstm-and-mlp-stock-price-prediction/" /><meta property="og:image" content="https://rs201918703.github.io/Rachel-s-Portfolio/"/><meta property="article:section" content="projects" />
 <meta property="article:published_time" content="2022-05-03T00:00:00+00:00" />
@@ -138,7 +138,7 @@
         </div>
 
         <article>
-            <h2 class="post-title"><a href="https://rs201918703.github.io/Rachel-s-Portfolio/projects/lstm-and-mlp-stock-price-prediction/">Predicting Meta&rsquo;s stock prices using LSTM and MLP</a></h2>
+            <h2 class="post-title"><a href="https://rs201918703.github.io/Rachel-s-Portfolio/projects/lstm-and-mlp-stock-price-prediction/">Simple stock prediction using artificial neural networks</a></h2>
 
             
             
@@ -147,14 +147,15 @@
             <div class="post-content">
                 <h4 id="project-overview">Project overview</h4>
 <ul>
-<li>This is an ongoing project</li>
-<li>Forecasted future prices of Meta&rsquo;s stock using recurrent and deep neural networks (Recurrent neural network, long short-term memory and multilayer perceptron)</li>
-<li>Created a vanilla RNN, LSTM, and MLP model to compare performance</li>
+<li>This is a completed project</li>
+<li>Forecasted future prices of Meta&rsquo;s stock using recurrent and deep neural networks</li>
+<li>Created RNN, LSTM, and MLP models using PyTorch to compare performance</li>
 <li>Measured accuracy using root mean-squared error</li>
 <li>Identified the better performing models and provided reasonings</li>
-<li>Comparing deep learning methods and traditional time series models (ARIMA)</li>
 <li>Analysis was carried out on Python (Spyder &amp; Jupyter Notebook &amp; Google Colab)</li>
 </ul>
+<p>The task of predicting stock market prices is challenging. Stock prediction is of interest to most investors due to its high volatility. Even now, some investors use a combination of technical and fundamental analysis to help them make better decisions about their equity market investments. A newly popular method many investors have been using is artificial networks. Therefore, this project aims to find out which ANN model has the best performance. This is an academic project for ST311.</p>
+<p>View the full Github repository <a href="https://github.com/RS201918703/Simple-stock-prediction-with-ANN">here</a>.</p>
 
             </div>
         </article>

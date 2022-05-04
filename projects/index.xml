@@ -18,12 +18,12 @@
     </item>
     
     <item>
-      <title>Predicting Meta&#39;s stock prices using LSTM and MLP</title>
+      <title>Simple stock prediction using artificial neural networks</title>
       <link>https://rs201918703.github.io/Rachel-s-Portfolio/projects/lstm-and-mlp-stock-price-prediction/</link>
       <pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://rs201918703.github.io/Rachel-s-Portfolio/projects/lstm-and-mlp-stock-price-prediction/</guid>
-      <description>Project overview  This is an ongoing project Forecasted future prices of Meta&amp;rsquo;s stock using recurrent and deep neural networks (Recurrent neural network, long short-term memory and multilayer perceptron) Created a vanilla RNN, LSTM, and MLP model to compare performance Measured accuracy using root mean-squared error Identified the better performing models and provided reasonings Comparing deep learning methods and traditional time series models (ARIMA) Analysis was carried out on Python (Spyder &amp;amp; Jupyter Notebook &amp;amp; Google Colab)  </description>
+      <description>Project overview  This is a completed project Forecasted future prices of Meta&amp;rsquo;s stock using recurrent and deep neural networks Created RNN, LSTM, and MLP models using PyTorch to compare performance Measured accuracy using root mean-squared error Identified the better performing models and provided reasonings Analysis was carried out on Python (Spyder &amp;amp; Jupyter Notebook &amp;amp; Google Colab)  The task of predicting stock market prices is challenging. Stock prediction is of interest to most investors due to its high volatility.</description>
     </item>
     
     <item>
